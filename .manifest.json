@@ -1,0 +1,130 @@
+{
+  "liblabVersion": "1.1.40",
+  "date": "2024-03-13T14:58:48.002Z",
+  "config": {
+    "authentication": {
+      "access": {
+        "prefix": "Bearer"
+      }
+    },
+    "deliveryType": "zip",
+    "languages": [
+      "python"
+    ],
+    "inputFileName": "/tmp/resources/spec/open-api-spec.json",
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "tempDir": "/tmp/liblab-codegen-1.1.40-E3spkG",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.0.0"
+      },
+      "languages": [
+        "javascript",
+        "typescript"
+      ]
+    },
+    "auth": [
+      "bearer"
+    ],
+    "privateRepo": false,
+    "githubRef": "",
+    "sdkName": "Testsdk",
+    "sdkVersion": "1.0.0",
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "generateEnv": true,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "ignoreFiles": [
+      ".devcontainer"
+    ],
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "",
+    "environments": [],
+    "reservedKeywords": {},
+    "deliveryMethods": [],
+    "bundle": false,
+    "exportClassDefault": false,
+    "responseHeaders": false,
+    "renameIllegalModelProperties": false,
+    "devContainer": false,
+    "strictVersion": false,
+    "authors": [],
+    "classifiers": [],
+    "projectUrls": {},
+    "homepage": "",
+    "enforceRequestValidation": false,
+    "denoteCommon": false,
+    "includeOptionalSnippetParameters": true,
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "spec": {
+      "type": "openapi",
+      "version": "3.0"
+    },
+    "usesFormData": false
+  },
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "examples/.env.example",
+    "examples/README.md",
+    "examples/install.cmd",
+    "examples/install.sh",
+    "examples/install_py3.sh",
+    "examples/sample.py",
+    "install.cmd",
+    "install.sh",
+    "pyproject.toml",
+    "requirements.txt",
+    "src/testsdk/README.md",
+    "src/testsdk/__init__.py",
+    "src/testsdk/hooks/__init__.py",
+    "src/testsdk/hooks/hook.py",
+    "src/testsdk/models/Error.py",
+    "src/testsdk/models/Pet.py",
+    "src/testsdk/models/Pets.py",
+    "src/testsdk/models/README.md",
+    "src/testsdk/models/__init__.py",
+    "src/testsdk/models/base.py",
+    "src/testsdk/net/__init__.py",
+    "src/testsdk/net/environment.py",
+    "src/testsdk/net/http_client.py",
+    "src/testsdk/net/http_content_types.py",
+    "src/testsdk/net/query_serializer.py",
+    "src/testsdk/net/utils.py",
+    "src/testsdk/sdk.py",
+    "src/testsdk/services/README.md",
+    "src/testsdk/services/__init__.py",
+    "src/testsdk/services/base.py",
+    "src/testsdk/services/pets.py",
+    "src/testsdk/setup.py",
+    "test/__init__.py",
+    "test/models/__init__.py",
+    "test/models/test_base.py",
+    "test/models/test_error.py",
+    "test/models/test_pet.py",
+    "test/services/__init__.py",
+    "test/services/test_base.py",
+    "test/services/test_pets.py"
+  ]
+}
